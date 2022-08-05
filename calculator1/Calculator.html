@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src = "calculatortest.js"></script>
+    </head>
+    <body>
+        <!-- Field Set -->
+        <fieldset style="width:550px">
+            <!-- Legend -->
+            <legend>MY CALCULATOR:</legend>
+            <!-- HTML Table -->
+            <table>
+                <tr>
+                    <!-- First number input field -->
+                    <td>NUMBER 1:</td><td><input type = "number" id = "num1" /></td>
+                </tr>
+                <tr>
+                    <!-- Second number input field -->
+                    <td>NUMBER 2:</td><td><input type = "number" id = "num2" /></td>
+                </tr>
+                <tr>
+                    <!-- Results input field -->
+                    <td>RESULT:</td><td><input type = "text" id = "res" readonly /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <!-- Buttons -->
+                    <td><input type="button" id = "add" value = "+" onclick="operation('+')" /></td>
+                    <td><input type="button" id = "sub" value = "-" onclick="operation('-')" /></td>
+                    <td><input type="button" id = "mul" value = "*" onclick="operation('*')" /></td>
+                    <td><input type="button" id = "div" value = "/" onclick="operation('/')" /></td>
+                   
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>
